@@ -1,0 +1,39 @@
+body {
+  background: #eee;
+}
+
+.todo-app {
+  margin: 25px;
+  padding: 25px;
+  background: #fff;
+  max-width: 500px;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.17);
+}
+input[type="text"] {
+  padding: 7px;
+  border: 1px solid #999;
+  width: 300px;
+}
+
+button {
+  background: #35a29c;
+  border: 1px solid transparent;
+  padding: 7px 30px;
+  color: #fff;
+  width: 120px;
+}
+
+ul.todos {
+  padding-left: 0;
+}
+.todos li {
+  list-style: none;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px 0;
+  background: #f9f9f9;
+}
+
+li.todos__item.todos__item_checked {
+  background: #d5f0ef;
+}
